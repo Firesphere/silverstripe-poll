@@ -9,14 +9,14 @@
  *
  * @author Simon 'Sphere' Erkelens
  */
-class PollAdmin extends ModelAdmin {
-	
-	private static $managed_models = array(
-		'Poll',
-	);
-	
-	private static $menu_title = 'Polls';
-	
-	private static $url_segment = 'poll';
-
+class PollAdmin extends ModelAdmin
+{
+    
+    private static $managed_models = array(
+        'Poll',
+    );
+    
+    private static $menu_title = 'Polls';
+    
+    private static $url_segment = 'poll';
 }
